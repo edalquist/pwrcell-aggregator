@@ -32,3 +32,9 @@ All under https://pwrcell.generac.com
   * ex: TODO
 * Wind Turbine Data?
   * `/last_power/{deviceId}.json ???`
+
+## pwrcell.generac.com Auth
+
+Observations:
+* A valid `_PikaUserProfiles_session` cookie is required to submit the login form
+* Once logged in only the `remember_token` appears to actually be needed
